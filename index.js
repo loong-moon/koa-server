@@ -13,14 +13,6 @@ const app = new Koa()
 
 const _http = axios.create({
     timeout: 5000,
-    // proxy: {
-    //     host: '192.168.200.70',
-    //     port: 8080,
-    //     auth:{
-    //         username: 'mikeymike',
-    //         password: 'rapunz3l'
-    //     }
-    // },
 })
 
 app.use(async(ctx, next) => {
