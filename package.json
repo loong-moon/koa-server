@@ -9,7 +9,7 @@
   "author": "star",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "busboy": "^0.2.14",
     "koa": "^2.4.1",
     "koa-router": "^7.4.0",
